@@ -248,7 +248,7 @@ img {
 
 .checkbox-input:checked + .checkbox-icon {
   background-origin: border-box;
-  background-image: url(/images/sprite/icon-check.svg);
+  background-image: url(../images/sprite/icon-check.svg);
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-color: #2196f3;
