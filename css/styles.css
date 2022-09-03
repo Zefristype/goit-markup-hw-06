@@ -197,17 +197,14 @@ img {
 }
 
 
-.field:focus-within .form-icon,
-.field:hover .form-icon {
+.field:focus-within .form-icon {
   fill: var(--accent-text-color);
 }
 .field:focus-within .field-input {
   border-color: var(--accent-text-color);
 }
 
-.field .field-input:hover {
-  border-color: var(--accent-text-color);
-}
+
 
 .field > .area {
   padding: 12px 16px;
@@ -766,8 +763,7 @@ body {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-field input:focus,
-.footer-field input:hover{
+.footer-field input:focus {
   border-color: var(--accent-text-color);
 }
 
