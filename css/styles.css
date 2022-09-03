@@ -271,9 +271,11 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mainform-btn:hover {
+.mainform-btn:hover,
+.mainform-btn:focus{
   background-color: var(--btn-accent-color);
 }
 
@@ -432,6 +434,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-btn:hover {
   color: var(--white-text-color);
@@ -769,7 +772,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
-
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--white-text-color);
 }
 
