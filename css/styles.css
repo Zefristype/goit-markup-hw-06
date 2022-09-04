@@ -165,11 +165,11 @@ img {
   color: var(--primary-text-color);
 }
 
-.main-form > .field:not(:nth-child(4)) {
+.main-form > .field {
   margin-bottom: 10px;
 }
 
-.main-form > .field:nth-child(4) {
+.main-form > .field:nth-child(5) {
   margin-bottom: 20px;
 }
 
@@ -645,6 +645,10 @@ body {
 .flex-footer {
   display: flex;
   align-items: baseline;
+}
+
+.flex-footer > div {
+  flex-grow: 1;
 }
 
 .container-join {
